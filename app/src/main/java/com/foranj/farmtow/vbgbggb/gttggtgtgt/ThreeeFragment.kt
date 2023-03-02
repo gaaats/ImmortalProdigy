@@ -7,12 +7,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.foranj.farmtow.R
 import com.foranj.farmtow.gthyhyhyhy.IJjifirijiii
 import com.foranj.farmtow.gthyhyhyhy.IJjifirijiii.hjuu9ju9
 import com.foranj.farmtow.gthyhyhyhy.IJjifirijiii.vfvf
 import com.foranj.farmtow.hnhjujujuuj.JIjrfjrfirfijrf
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.core.qualifier.named
@@ -66,7 +69,13 @@ class ThreeeFragment : Fragment() {
                 hy55hy59hy.edit().putString(IJjifirijiii.hjjuju, zaxaxxaax).apply()
                 hy55hy59hy.edit().putString(hjuu9ju9, xsszza).apply()
 
-                hrfhirfhhrf()
+//                lifecycleScope.launch {
+//                    delay(500)
+                    hrfhirfhhrf()
+
+
+//                }
+
             }
         }
     }
