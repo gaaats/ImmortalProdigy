@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h59hy59hy59hy9hy"
+    tools:context=".nhyjuujjuju.gtgtgtgt.Gammaamamma2222222Fragment">
+
+    <TextView
+        android:id="@+id/gthyhyhyhy"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:autoSizeTextType="uniform"
+        android:background="#9F59E4"
+        android:gravity="center"
+        android:maxLines="2"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="1565\npoints"
+        android:textAllCaps="true"
+        android:textColor="#CD96EC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ftgthyhyyhhy"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="#6708C6"
+        android:gravity="center"
+        android:text="perfect game!!!"
+        android:textAllCaps="true"
+        android:textColor="#CD96EC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gthyhyhyhy" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="36dp"
+        android:rotation="-30"
+        android:src="@drawable/hy59hy59hy5"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ressttaart"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="36dp"
+        android:rotation="30"
+        android:src="@drawable/hy59hy59hy5"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ressttaart"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/gt5hyhy5hy5hy"
+        app:layout_constraintBottom_toTopOf="@+id/gthyhyhyhy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/lllllllleeef"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gt5gt55gt"
+        app:layout_constraintBottom_toBottomOf="@id/three"
+        app:layout_constraintEnd_toStartOf="@id/three"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/three" />
+
+    <ImageView
+        android:id="@+id/riigghhtt"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/h59hy59hy5hy5"
+        app:layout_constraintBottom_toBottomOf="@id/three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/three"
+        app:layout_constraintTop_toTopOf="@id/three" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_ressttaart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="48dp"
+        android:text="restart game"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

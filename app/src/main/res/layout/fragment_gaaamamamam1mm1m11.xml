@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h59hy59hy59hy9hy"
+    tools:context=".nhyjuujjuju.gtgtgtgt.Gaaamamamam1mm1m11Fragment">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:autoSizeTextType="uniform"
+        android:background="#9F59E4"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toTopOf="@id/tvo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/tvo"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:background="#9F59E4"
+        android:text="super bonus"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toTopOf="@id/three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/one" />
+
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/hy59hy59hy5"
+        app:layout_constraintBottom_toTopOf="@id/four"
+        app:layout_constraintEnd_toStartOf="@id/fiiive"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvo" />
+
+    <ImageView
+        android:id="@+id/frgtgtgtgtgt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/hy59hy59hy5"
+        android:rotation="-12"
+        app:layout_constraintBottom_toTopOf="@id/one"
+        app:layout_constraintEnd_toStartOf="@id/one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/one" />
+
+    <TextView
+        android:id="@+id/hyhyhyhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6708C6"
+        android:text="x25"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAllCaps="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/frgtgtgtgtgt"
+        app:layout_constraintStart_toStartOf="@id/frgtgtgtgtgt"
+        app:layout_constraintTop_toBottomOf="@id/frgtgtgtgtgt" />
+
+    <ImageView
+        android:id="@+id/fiiive"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/gt5hyhy5hy5hy"
+        app:layout_constraintBottom_toBottomOf="@id/three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/three"
+        app:layout_constraintTop_toBottomOf="@id/tvo" />
+
+    <ImageView
+        android:id="@+id/byhyyhy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gt5hyhy5hy5hy"
+        app:layout_constraintBottom_toBottomOf="@id/one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/one"
+        app:layout_constraintStart_toEndOf="@id/one" />
+
+    <TextView
+        android:id="@+id/nhkiikik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6708C6"
+        android:text="x16"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAllCaps="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/byhyyhy"
+        app:layout_constraintStart_toStartOf="@id/byhyyhy"
+        app:layout_constraintTop_toBottomOf="@id/byhyyhy" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:background="#9F59E4"
+        android:text="choose one element and receive bonus"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:maxLines="3"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/three" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

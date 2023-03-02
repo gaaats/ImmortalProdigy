@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maiaiananana"
+    app:startDestination="@id/oneneneneFragment">
+
+    <fragment
+        android:id="@+id/oneneneneFragment"
+        android:name="com.foranj.farmtow.vbgbggb.gttggtgtgt.OneneneneFragment"
+        android:label="fragment_onenenene"
+        tools:layout="@layout/fragment_onenenene" >
+        <action
+            android:id="@+id/action_oneneneneFragment_to_tvoooovovoFragment"
+            app:destination="@id/tvoooovovoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvoooovovoFragment"
+        android:name="com.foranj.farmtow.vbgbggb.gttggtgtgt.TvoooovovoFragment"
+        android:label="fragment_tvoooovovo"
+        tools:layout="@layout/fragment_tvoooovovo" >
+        <action
+            android:id="@+id/action_tvoooovovoFragment_to_threeeFragment"
+            app:destination="@id/threeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeeFragment"
+        android:name="com.foranj.farmtow.vbgbggb.gttggtgtgt.ThreeeFragment"
+        android:label="fragment_threee"
+        tools:layout="@layout/fragment_threee" >
+        <action
+            android:id="@+id/action_threeeFragment_to_fooooooooorrFragment"
+            app:destination="@id/fooooooooorrFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fooooooooorrFragment"
+        android:name="com.foranj.farmtow.nhjjuujjuju.FooooooooorrFragment"
+        android:label="fragment_fooooooooorr"
+        tools:layout="@layout/fragment_fooooooooorr" >
+        <action
+            android:id="@+id/action_fooooooooorrFragment_to_fiiiiiiveveveFragment"
+            app:destination="@id/fiiiiiiveveveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiiiiiiveveveFragment"
+        android:name="com.foranj.farmtow.nhjjuujjuju.FiiiiiiveveveFragment"
+        android:label="fragment_fiiiiiiveveve"
+        tools:layout="@layout/fragment_fiiiiiiveveve" />
+</navigation>
